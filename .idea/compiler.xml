@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="char-interfaces" />
+        <module name="char-infrastructure" />
+        <module name="char-domain" />
+        <module name="char-application" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="char-ai" target="8" />
+      <module name="char-application" target="8" />
+      <module name="char-domain" target="8" />
+      <module name="char-infrastructure" target="8" />
+      <module name="char-interfaces" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="char-ai" options="-parameters" />
+      <module name="char-application" options="-parameters" />
+      <module name="char-domain" options="-parameters" />
+      <module name="char-infrastructure" options="-parameters" />
+      <module name="char-interfaces" options="-parameters" />
+    </option>
+  </component>
+</project>

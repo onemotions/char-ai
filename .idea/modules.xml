@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/char-ai.iml" filepath="$PROJECT_DIR$/.idea/char-ai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/char-application/char-application.iml" filepath="$PROJECT_DIR$/char-application/char-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/char-domain/char-domain.iml" filepath="$PROJECT_DIR$/char-domain/char-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/char-infrastructure/char-infrastructure.iml" filepath="$PROJECT_DIR$/char-infrastructure/char-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/char-interfaces/char-interfaces.iml" filepath="$PROJECT_DIR$/char-interfaces/char-interfaces.iml" />
+    </modules>
+  </component>
+</project>
